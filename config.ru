@@ -5,7 +5,9 @@ require "amygdala"
 class Player
   class << self
     def move(data)
-      "down"
+        directions=["up","right","down","left"]
+        turn = data["turn"]
+        directions[turn%4]
     end
   end
 end
