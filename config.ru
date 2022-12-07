@@ -5,7 +5,7 @@ require "amygdala"
 class Player
   class << self
     def move(data)
-      "up"
+      "down"
     end
   end
 end
