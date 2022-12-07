@@ -1,0 +1,21 @@
+current directory: /Users/alisson.ntwali/battlesnake/vendor/bundle/ruby/3.1.0/gems/thin-1.8.1/ext/thin_parser
+/Users/alisson.ntwali/.rbenv/versions/3.1.3/bin/ruby -I /Users/alisson.ntwali/.rbenv/versions/3.1.3/lib/ruby/3.1.0 extconf.rb
+checking for main() in -lc... yes
+creating Makefile
+
+current directory: /Users/alisson.ntwali/battlesnake/vendor/bundle/ruby/3.1.0/gems/thin-1.8.1/ext/thin_parser
+make DESTDIR\= sitearchdir\=./.gem.20221206-33468-lb6otp sitelibdir\=./.gem.20221206-33468-lb6otp clean
+
+current directory: /Users/alisson.ntwali/battlesnake/vendor/bundle/ruby/3.1.0/gems/thin-1.8.1/ext/thin_parser
+make DESTDIR\= sitearchdir\=./.gem.20221206-33468-lb6otp sitelibdir\=./.gem.20221206-33468-lb6otp
+compiling parser.c
+parser.c:31:18: warning: unused variable 'http_parser_en_main' [-Wunused-const-variable]
+static const int http_parser_en_main = 1;
+                 ^
+1 warning generated.
+compiling thin.c
+linking shared-object thin_parser.bundle
+
+current directory: /Users/alisson.ntwali/battlesnake/vendor/bundle/ruby/3.1.0/gems/thin-1.8.1/ext/thin_parser
+make DESTDIR\= sitearchdir\=./.gem.20221206-33468-lb6otp sitelibdir\=./.gem.20221206-33468-lb6otp install
+/usr/bin/install -c -m 0755 thin_parser.bundle ./.gem.20221206-33468-lb6otp
